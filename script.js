@@ -13,8 +13,6 @@ let appData = {
         savings: false,
     };
 
-gg
-
 
 
 console.log(appData);
