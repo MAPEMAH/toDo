@@ -1,7 +1,7 @@
 
 //создание переменных money and time с вопросами
-let money = prompt('Ваш бюджет на месяц?'); 
-let time = prompt('Введите дату в формате YYYY-MM-DD');
+let money = prompt('Ваш бюджет на месяц?'),
+    time = prompt('Введите дату в формате YYYY-MM-DD');
 
 
 //appData обьект со свойствами внутри
@@ -16,8 +16,8 @@ let appData = {
     
 
     //как сделать вопросы не имею понятия и соеденить их по примеру
-let a = prompt('Введите обязательную статью расходов в этом месяце');
-let b = prompt('Во сколько обойдется?');
+let a = prompt('Введите обязательную статью расходов в этом месяце'),
+    b = prompt('Во сколько обойдется?');
 appData.expenses={[a]: b};
     // expenses = {
     //     let a = 'first';
@@ -30,3 +30,4 @@ appData.expenses={[a]: b};
     // console.log('obj');
 
 console.log(appData);
+
